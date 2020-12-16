@@ -1,0 +1,42 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.manicontent {
+  margin: 0;
+  padding: 0;
+}
+/* navbar style*/
+.navbar {
+  background-color: #eaecee;
+  color: #17202a;
+}
+a.navbar-brand {
+  text-decoration: none;
+  color: #1b2631;
+}
+ul.navstyle {
+  list-style-type: none;
+}
+ul.navstyle li a {
+  text-decoration: none;
+  color: #1b2631;
+}
+/* navbar style end*/
+
+/*sidebar style end*/
+
+/*  footer start style*/
+.footer {
+  background-color: #17202a;
+  color: #aeb6bf;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-left: 10%;
+}
+
+/*  footer start end */

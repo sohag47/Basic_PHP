@@ -1,0 +1,28 @@
+.leftpart {
+  background-color: #17a589;
+  color: aliceblue;
+}
+.leftside {
+  margin-left: 100px;
+  margin-top: 300px;
+}
+.rightside {
+  margin-left: 100px;
+  margin-top: 120px;
+  margin-right: 100px;
+}
+.downside {
+  margin-top: 319px;
+}
+.btnstyle {
+  background-color: #17a589;
+  color: aliceblue;
+  margin-left: 100px;
+  border: 1px solid #ccc;
+}
+.btnstyle2 {
+  background-color: #17a589;
+  color: aliceblue;
+  margin-left: 150px;
+  border: 1px solid #ccc;
+}

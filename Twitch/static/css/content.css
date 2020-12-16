@@ -1,0 +1,80 @@
+/*sidebar*/
+.content1 {
+  margin: 0;
+  width: 10%;
+  list-style-type: none;
+  padding-top: 20px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  background-color: #1b2631;
+}
+.sidenav li a {
+  display: block;
+  color: #aeb6bf;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.sidenav li a:hover {
+  color: white;
+}
+/*carousel style start*/
+.content2 {
+  margin-left: 153px;
+}
+.cstyle {
+  background-color: #1b2631;
+  margin: 0;
+  padding: 0;
+}
+.carousel {
+  background: #1b2631;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  padding-right: 20px;
+  z-index: 1;
+}
+/*carousel style end*/
+
+/*last Section start*/
+.content3 {
+  margin-left: 153px;
+}
+.lastsection {
+  background-color: #1b2631;
+  color: #aeb6bf;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.lsectionitem {
+  padding-left: 500px;
+}
+
+h4.fhstyle {
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+ul.flstyle {
+  list-style-type: none;
+}
+ul.flstyle li a {
+  text-decoration: none;
+  color: #aeb6bf;
+}
+ul.flstyle li a:hover {
+  color: white;
+}
+/*last Section end*/

@@ -1,0 +1,141 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {
+.leftpart {
+  background-color: #17a589;
+  color: aliceblue;
+}
+.leftside {
+  margin-left: 100px;
+  margin-top: 300px;
+}
+.rightpart {
+  background-color: white;
+  color: black;
+}
+.rightside {
+  margin-left: 100px;
+  margin-top: 120px;
+  margin-right: 100px;
+}
+*/
+.leftpart {
+  background-color: #17a589;
+  color: aliceblue;
+}
+.leftside {
+  margin-left: 100px;
+  margin-top: 300px;
+}
+.rightside {
+  margin-left: 100px;
+  margin-top: 120px;
+  margin-right: 100px;
+}
+.downside {
+  margin-top: 319px;
+}
+.btnstyle {
+  background-color: #17a589;
+  color: aliceblue;
+  margin-left: 100px;
+  border: 1px solid #ccc;
+}
+.btnstyle2 {
+  background-color: #17a589;
+  color: aliceblue;
+  margin-left: 150px;
+  border: 1px solid #ccc;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 40px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.username {
+  position: relative;
+}
+.username i {
+  position: absolute;
+  left: 15px;
+  top: 25px;
+  color: gray;
+}
+.useremail {
+  position: relative;
+}
+.useremail i {
+  position: absolute;
+  left: 15px;
+  top: 25px;
+  color: gray;
+}
+.userpassword {
+  position: relative;
+}
+.userpassword i {
+  position: absolute;
+  left: 15px;
+  top: 25px;
+  color: gray;
+}
+.template-demo > .btn {
+  margin-right: 0.5rem !important;
+}
+
+.template-demo {
+  margin-top: 0.5rem !important;
+  margin-left: 220px;
+}
+
+.btn.btn-rounded {
+  border-radius: 50px;
+}
+
+/* for facebook*/
+.btn.btn-rounded.btn-outline-facebook {
+  border: 1px solid #3b579d;
+}
+
+.btn-outline-facebook {
+  border: 1px solid #3b579d;
+  color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+  background: #3b579d;
+  color: #ffffff;
+}
+/* for linkedIn*/
+.btn.btn-rounded.btn-outline-linkedin {
+  border: 1px solid #0177b5;
+}
+
+.btn-outline-linkedin {
+  border: 1px solid #0177b5;
+  color: #0177b5;
+}
+
+.btn-outline-linkedin:hover {
+  background: #0177b5;
+  color: #ffffff;
+}
+
+/* for github*/
+.btn.btn-rounded.btn-outline-github {
+  border: 1px solid #444444;
+}
+
+.btn-outline-github {
+  border: 1px solid #444444;
+  color: #444444;
+}
+
+.btn-outline-github:hover {
+  background: #444444;
+  color: #ffffff;
+}
