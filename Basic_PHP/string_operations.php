@@ -1,4 +1,18 @@
 <?php
+
+/*
+! '' vs "" 
+*/
+$name = 'sohag';
+echo('Minhazul Islam '.$name.'<br/>');
+echo("Minhazul Islam ".$name.'<br/>');
+
+echo('minhazul islam $name <br/>');
+echo("minhazul islam $name <br/>");
+echo '<br/>';
+
+
+
 //! string operations
 $var1 = "Hello World";
 
