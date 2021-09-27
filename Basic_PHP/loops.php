@@ -5,6 +5,12 @@
 */
 $x = 2;
 
+//? infinite loop (while)
+// while(true){
+
+// }
+
+
 //? while() loop
 while($x <= 5){
     print($x." ");

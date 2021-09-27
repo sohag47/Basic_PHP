@@ -27,8 +27,8 @@ $object = new Fruit();
 
 //! data insert
 $object->set_name('Mango');
-$object->set_color("Yellow");
-$object->set_weight("150gm");
+// $object->set_color("Yellow");
+// $object->set_weight("150gm");
 
 //! data show
 echo($object->name);
