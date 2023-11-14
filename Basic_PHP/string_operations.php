@@ -4,59 +4,56 @@
 ! '' vs "" 
 */
 $name = 'sohag';
-echo('Minhazul Islam '.$name.'<br/>');
-echo("Minhazul Islam ".$name.'<br/>');
+echo('Minhazul Islam '.$name."\n"); // for '' concatenate
+echo("Minhazul Islam ".$name."\n"); // for "" concatenate
 
-echo('minhazul islam $name <br/>');
-echo("minhazul islam $name <br/>");
-echo '<br/>';
+// variable interpolation 
+echo('minhazul islam $name'."\n"); 
+echo("minhazul islam $name"."\n");
 
+echo('minhazul islam {$name}'."\n");
+echo("minhazul islam {$name}"."\n");
 
+/*
+? double-quoted strings also accept special characters \n, \r, \t
+*/
 
 //! string operations
 $var1 = " Hello World ";
 
 //? strlen() for string length
-echo("($var1) string length: ".strlen($var1)) ."</br>";
+echo("($var1) string length: ".strlen($var1)) ."\n";
 
 //? remove extra space
-echo trim($var1) . "</br>";
-echo ltrim($var1). "</br>";
-echo rtrim($var1). "</br>";
+echo trim($var1) ."\n";
+echo ltrim($var1)."\n";
+echo rtrim($var1)."\n";
 
 //? str_word_count() for count word in a string
-echo "<br/>";
-echo("($var1) word count: ".str_word_count($var1));
+echo("($var1) word count: ".str_word_count($var1)."\n");
 
 //? strrev() for string reverse
-echo "<br/>";
-echo("($var1) string reverse: ". strrev($var1));
+echo("($var1) string reverse: ". strrev($var1)."\n");
 
 //? string upper case
-echo "</br>";
-echo "($var1) string uppercase: ". strtoupper($var1);
+echo "($var1) string uppercase: ". strtoupper($var1)."\n";
 
 //? string lower case
-echo "</br>";
-echo "($var1) string lowercase: ". strtolower($var1);
+echo "($var1) string lowercase: ". strtolower($var1)."\n";
 
 //? only first latter upper case
-echo "</br>";
-echo "($var1) first latter uppercase: ". ucfirst('minhazul');
+echo "($var1) first latter uppercase: ". ucfirst('minhazul')."\n";
 
 //? only first latter lower case
-echo "</br>";
-echo "($var1) first latter lowercase: ". lcfirst('MINHAZUL');
+echo "($var1) first latter lowercase: ". lcfirst('MINHAZUL')."\n";
 
 //? word first latter uppercase
-echo "</br>";
-echo "($var1) word first latter uppercase: ". ucwords('minhazul islam sohag');
+echo "($var1) word first latter uppercase: ". ucwords('minhazul islam sohag')."\n";
 
 //? strpos() for search text within a string
-echo "<br/>";
 echo("($var1) string search: ". strpos($var1, "World"));
 
-//? stripos() for search text without case 
+// //? stripos() for search text without case 
 echo "<br/>";
 echo("($var1) string search without case: ". stripos($var1, "World"));
 
