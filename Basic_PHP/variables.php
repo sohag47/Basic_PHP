@@ -10,43 +10,40 @@ Array
 Object
 */
 
-//? Declare variables
+// Declare variables
 $name = 'Minhazul Islam Sohag'; 
 $age = 23; 
 $height = 5.6; 
 $marital_status = FALSE; 
 $salary = NULL;
 
-//? print variables
-echo("Name: $name, Age: $age, Height: $height, Marital Status: $marital_status, Salary: $salary");
+// print variables
+echo("Name: $name, Age: $age, Height: $height, Marital Status: $marital_status, Salary: $salary \n");
 
-//? show type of the variables
-echo '</br>';
-echo("Name: ".gettype($name));
+// show type of the variables
+echo "Name: ".gettype($name)."\n";
 
-//? show type of the variables and print hole variable
-echo '</br>';
+// show type of the variables and print hole variable
 var_dump($name);
 
-//? variable checking
-echo '</br>';
+// variable checking
 echo is_string($name); 
-echo is_integer($age);
+echo is_int($age);
 echo is_float($height);
 echo is_bool($marital_status);
 echo is_null($salary);
 
-//? check variable define
-echo '</br>';
+// check variable define
+echo "\n";
 echo isset($name);
 
-//? constant 
+// //? constant 
 define('PI', 3.1416);
-echo '</br>';
+echo "\n";
 echo PI;
 
-//? built in constant
-echo '</br>';
-echo SORT_ASC.'</br>';
+// //? built in constant
+echo "\n";
+echo SORT_ASC."\n";
 
 ?>
