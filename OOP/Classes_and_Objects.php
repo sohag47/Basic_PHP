@@ -14,7 +14,7 @@ class Fruit {
         $this->color = $color;
     }
     function get_properties(){
-        echo("$this->name, $this->color <br/>");
+        echo("$this->name, $this->color \n");
     }
 }
 
@@ -29,7 +29,7 @@ $apple->set_properties('Apple', 'RED');
 $banana->set_properties('Banana', 'YELLOW');
 
 //! Show data & call method
-echo("$obj->title <br/>");
+echo("$obj->title \n");
 $apple->get_properties();
 $banana->get_properties();
 
