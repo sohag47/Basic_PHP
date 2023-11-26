@@ -11,6 +11,12 @@ class Fruit {
     public $color;
     public $weight;
 
+    public function __construct(string $name, string $color, int $weight) {
+        $this->name = $name;
+        $this->color = $color;
+        $this->weight = $weight;
+    }
+
     //! create methods
     function set_name($name){
         $this->name = $name;
@@ -21,18 +27,23 @@ class Fruit {
     protected function set_weight($weight){
         $this->weight = $weight;
     }
+
+    public function show(){
+        echo "Name: {$this->name}, Color: {$this->color}, Weight: {$this->weight}g";
+    }
 }
 //! create object
-$object = new Fruit();
+$fruit = new Fruit("apple", "red", 10);
 
+$fruit->show();
 //! data insert
-$object->set_name('Mango');
-// $object->set_color("Yellow");
-// $object->set_weight("150gm");
+// $object->set_name('Mango');
+// // $object->set_color("Yellow");
+// // $object->set_weight("150gm");
 
-//! data show
-echo($object->name);
-//echo($object->color);
-echo($object->weight);
+// //! data show
+// echo($object->name);
+// //echo($object->color);
+// echo($object->weight);
 
 ?>

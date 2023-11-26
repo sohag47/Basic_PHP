@@ -15,7 +15,8 @@ class Fruit {
         $this->color = $color;
     }
     function getProperties(){
-        echo("$this->name, $this->color <br/>");
+        echo("$this->name, $this->color \n");
+        return;
     }
 }
 
