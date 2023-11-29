@@ -26,7 +26,15 @@ class Audi extends Car {
 
 //! create object
 $audi = new Audi("Audi");
-echo $audi->intro();
+echo "{$audi->intro()} \n";
 
 
-?>
+class Mercedes extends Car 
+{
+    public function intro(): string
+    {
+        return "Choose German quality! I'm an $this->name";
+    }
+}
+$mercedes = new Mercedes("Mercedes");
+echo "{$mercedes->intro()} \n";
