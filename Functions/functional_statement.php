@@ -8,7 +8,7 @@ declare(strict_types=1);
 //? basic function
 function userInfo(string $name = '', string $email = '', int &$age = 0): array
 {
-    return $data = [
+    return [
         'name' => $name,
         'email' => $email,
         'age' => $age
@@ -53,3 +53,14 @@ $fn2 = function ($x) use ($y) {
     return $x + $y;
 };
 var_export($fn2(2));
+"\n";
+
+
+function find($needle, $haystack) : void {
+    echo $needle." ".$haystack;
+}
+find(
+    needle : 'awesome',
+    haystack : 'PHP is awesome!'
+    
+);
