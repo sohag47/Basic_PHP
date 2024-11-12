@@ -45,15 +45,15 @@ class Duck implements FlyAbleInterface, SwimAbleInterface
 }
 
 //? create objects
-$penguin = new Penguin();
-$penguin->swim();
+// $penguin = new Penguin();
+// $penguin->swim();
 
-$bird = new Bird();
-$bird->fly();
+// $bird = new Bird();
+// $bird->fly();
 
-$duck = new Duck();
-$duck->fly();
-$duck->swim();
+// $duck = new Duck();
+// $duck->fly();
+// $duck->swim();
 
 
 interface PetInterface extends SwimAbleInterface, FlyAbleInterface
