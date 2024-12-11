@@ -2,18 +2,22 @@
 /*
 ! Static Methods 
 */
-class Car{
+class ParentClass{
     public static $text = "BMW";
 
 
     public static function testMethod(){
-        echo self::$text;
+        echo self::$text ."\n";
     }
 }
 
-Car::testMethod();
-echo "<br />";
-echo Car::$text;
+ParentClass::testMethod();  
+echo ParentClass::$text."\n";
+
+class ChildClass extends ParentClass {
+    public static $text = "ChildClass";
+}
+echo ChildClass::testMethod();
 
 
 ?>
