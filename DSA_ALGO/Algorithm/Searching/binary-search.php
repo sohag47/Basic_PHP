@@ -14,9 +14,7 @@ function binarySearch (array $data, int $search_item): int {
         $mid =  floor(($low + $high) / 2);
 
         // If the search item is equal to the middle element it is found
-        if($data[$mid] == $search_item){
-            return $mid;
-        }
+        if($data[$mid] == $search_item) return $mid;
         
         if ($search_item < $data[$mid]) { 
             // search the left side of the array 
