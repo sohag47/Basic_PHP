@@ -1,11 +1,10 @@
 <?php
 
-function LoginView(){
-    echo($_POST['email']);
-    echo($_POST['password']);
+function LoginView(): void
+{
+    echo $_POST['email'];
+    echo "</br>";
+    echo $_POST['password'];
 }
 
 LoginView();
-
-
-?>
