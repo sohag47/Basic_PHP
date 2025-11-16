@@ -1,5 +1,7 @@
 <?php
 
+//! Error and Exception Handling in PHP
+
 class PaymentException extends Exception
 {
     protected $errorCode;
