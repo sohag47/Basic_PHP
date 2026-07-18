@@ -20,21 +20,19 @@ $result = userInfo("Minhazul Islam Sohag", "sohag@email.com", $age);
 print_r($result) . PHP_EOL;
 
 
-//? multiple value 
+//? multiple value
 function testSum(...$num)
 {
     return print_r($num);
 }
-testSum(1, 2, 3, 4, 5, 6);
-echo "<br>";
+testSum(1, 2, 3, 4, 5, 6) . PHP_EOL;
 
 
-//? Anonymous function 
+//? Anonymous function
 $greet = function ($name) {
     echo $name;
 };
-$greet("Sohag");
-echo "<br>";
+$greet("Sohag"). PHP_EOL;
 
 //? Inherit $message
 $message = "world";
@@ -42,28 +40,26 @@ $example = function ($arg) use ($message) {
     echo $arg . '' . $message . "\n";
 };
 
-$example("Hello");
-echo "<br>";
+$example("Hello") . PHP_EOL;
 
 //? arrow function
 $y = 1;
 $fn1 = fn($x) => $x + $y;
-echo $fn1(2);
-echo "<br>";
+echo $fn1(2) . PHP_EOL;
 
 $fn2 = function ($x) use ($y) {
     return $x + $y;
 };
-var_export($fn2(2));
-echo "<br>";
+var_export($fn2(2)) . PHP_EOL;
 
 
 function find($needle, $haystack): void
 {
-    echo $needle . " " . $haystack;
+    echo "{$needle} {$haystack}" . PHP_EOL;
 }
+
+
 find(
     haystack: 'PHP is awesome!',
     needle: 'awesome',
-
 );

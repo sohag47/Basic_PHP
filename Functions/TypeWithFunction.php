@@ -11,4 +11,3 @@ function add(float $x, float $y) : float
 }
 echo add(1, 2);
 
-?>

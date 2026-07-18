@@ -1,0 +1,86 @@
+{
+    // --- Formatters & Code Style ---
+    "editor.formatOnSave": true,
+    "[php]": {
+        "editor.defaultFormatter": "laravel.vscode-laravel",
+        "editor.suggest.showMethods": true
+    },
+    "php.validate.enable": true,
+    "php.suggest.basic": true,
+
+    // Auto-lint and fix trivial issues on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+
+    // --- Editor Layout & Readability ---
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": true,
+
+    // --- Smooth Typing Experience ---
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "diffEditor.codeLens": true,
+
+    // --- File Cleanliness & Saving ---
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "better-comments.highlightPlainText": true,
+    "json.format.keepLines": true,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+
+    // --- File Exclusions & Optimization ---
+    // FIXED: Removed vendor/ from search/watcher exclusions so extensions can read framework classes
+    "search.exclude": {
+        "**/resources": true,
+        "**/public": true,
+        "**/node_modules": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/vendor": true,
+        "**/node_modules": true,
+        "**/resources": false,
+        "**/public": false,
+        "**/bootstrap": false,
+        ".editorconfig": false,
+        ".npmrc": true,
+        ".gitattributes": true,
+        "artisan": true,
+        "package-lock.json": true,
+        "composer.lock": true,
+        "phpunit.xml": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules": true,
+        "**/resources/**": true
+    },
+    "auto-close-tag.activationOnLanguage": [
+
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "chat.agent.enabled": false,
+    "inlineChat.askInChat": true,
+}
